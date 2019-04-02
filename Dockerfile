@@ -28,7 +28,7 @@ RUN set -x \
             && npm install -g yarn \
             && npm install -g create-react-app
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/app/app
 
 RUN set -x \
             && npm install
